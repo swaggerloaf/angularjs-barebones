@@ -1,0 +1,25 @@
+{
+  "name": "angular-seedling",
+  "version": "0.0.2",
+  "description": "Angular Seedling starter app",
+  "repository": {
+    "url": "git@github.com:swaggerloaf/angular-seedling.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "author": "Glenn D.",
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "fontawesome": "~4.7.2"
+  },
+  "scripts": {
+    "prestart": "webpack --config ./webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "jshint": "2.9.4",
+    "jshint-loader": "0.8.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
